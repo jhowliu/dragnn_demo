@@ -1,0 +1,57 @@
+56
+attribute { name: "fPOS" value: "NN++NN" }  22910
+attribute { name: "fPOS" value: "VV++VV" }  13468
+attribute { name: "fPOS" value: "NNP++NNP" }  8679
+attribute { name: "fPOS" value: ",++," }  6120
+attribute { name: "NumType" value: "Card" } attribute { name: "fPOS" value: "CD++CD" }  5352
+attribute { name: "fPOS" value: "SFN++SFN" }  4408
+attribute { name: "fPOS" value: "RB++RB" }  4388
+attribute { name: "fPOS" value: "IN++IN" }  4378
+attribute { name: "fPOS" value: "NNB++NNB" }  4170
+attribute { name: "fPOS" value: ".++." }  4009
+attribute { name: "Case" value: "Gen" } attribute { name: "fPOS" value: "DEC++DEC" }  2628
+attribute { name: "fPOS" value: "JJ++JJ" }  2446
+attribute { name: "fPOS" value: "VC++VC" }  2034
+attribute { name: "fPOS" value: "DEC++DEC" }  1933
+attribute { name: "fPOS" value: "CC++CC" }  1385
+attribute { name: "fPOS" value: "DT++DT" }  1041
+attribute { name: "fPOS" value: "EC++EC" }  999
+attribute { name: "Person" value: "3" } attribute { name: "fPOS" value: "PRP++PRP" }  840
+attribute { name: "fPOS" value: "FW++FW" }  825
+attribute { name: "fPOS" value: "MD++MD" }  730
+attribute { name: "fPOS" value: "(++(" }  667
+attribute { name: "fPOS" value: ")++)" }  667
+attribute { name: "Aspect" value: "Perf" } attribute { name: "fPOS" value: "AS++AS" }  653
+attribute { name: "fPOS" value: "PFA++PFA" }  580
+attribute { name: "Voice" value: "Cau" } attribute { name: "fPOS" value: "VV++VV" }  401
+attribute { name: "Voice" value: "Pass" } attribute { name: "fPOS" value: "BB++BB" }  344
+attribute { name: "fPOS" value: "\'\'++\'\'" }  344
+attribute { name: "fPOS" value: "PRD++PRD" }  342
+attribute { name: "fPOS" value: "``++``" }  342
+attribute { name: "fPOS" value: "/++/" }  209
+attribute { name: "Polarity" value: "Neg" } attribute { name: "fPOS" value: "RB++RB" }  196
+attribute { name: "fPOS" value: ":++:" }  171
+attribute { name: "Voice" value: "Cau" } attribute { name: "fPOS" value: "BB++BB" }  155
+attribute { name: "Number" value: "Plur" } attribute { name: "Person" value: "3" } attribute { name: "fPOS" value: "PRP++PRP" }  148
+attribute { name: "fPOS" value: "UH++UH" }  148
+attribute { name: "fPOS" value: "DEV++DEV" }  104
+attribute { name: "Aspect" value: "Prog" } attribute { name: "fPOS" value: "AS++AS" }  101
+attribute { name: "fPOS" value: "HYPH++HYPH" }  80
+attribute { name: "Person" value: "1" } attribute { name: "fPOS" value: "PRP++PRP" }  35
+attribute { name: "Number" value: "Plur" } attribute { name: "Person" value: "1" } attribute { name: "fPOS" value: "PRP++PRP" }  25
+attribute { name: "Number" value: "Plur" } attribute { name: "fPOS" value: "SFN++SFN" }  24
+attribute { name: "fPOS" value: "WP++WP" }  24
+attribute { name: "Person" value: "2" } attribute { name: "fPOS" value: "PRP++PRP" }  19
+attribute { name: "fPOS" value: "SFV++SFV" }  18
+attribute { name: "fPOS" value: "XX++XX" }  17
+attribute { name: "Number" value: "Plur" } attribute { name: "fPOS" value: "NN++NN" }  15
+attribute { name: "fPOS" value: "ADD++ADD" }  8
+attribute { name: "fPOS" value: "SFA++SFA" }  7
+attribute { name: "Mood" value: "Inter" } attribute { name: "fPOS" value: "UH++UH" }  6
+attribute { name: "fPOS" value: "...++..." }  4
+attribute { name: "fPOS" value: "PFN++PFN" }  4
+attribute { name: "fPOS" value: "LS++LS" }  3
+attribute { name: "Aspect" value: "Perf" } attribute { name: "fPOS" value: "UH++UH" }  1
+attribute { name: "Voice" value: "Cau" } attribute { name: "fPOS" value: "IN++IN" }  1
+attribute { name: "fPOS" value: "VERB++VERB" }  1
+attribute { name: "fPOS" value: "\"++\"" }  1

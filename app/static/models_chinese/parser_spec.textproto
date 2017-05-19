@@ -1,0 +1,110 @@
+component {
+  name: "lookahead"
+  transition_system {
+    registered_name: "shift-only"
+    parameters {
+      key: "left_to_right"
+      value: "true"
+    }
+  }
+  fixed_feature {
+    name: "words"
+    fml: "input.word"
+    embedding_dim: 64
+  }
+  linked_feature {
+    name: "rnn"
+    fml: "constant"
+    embedding_dim: -1
+    source_component: "lookahead"
+    source_translator: "history"
+    source_layer: "layer_0"
+  }
+  network_unit {
+    registered_name: "FeedForwardNetwork"
+    parameters {
+      key: "hidden_layer_sizes"
+      value: "256"
+    }
+  }
+  backend {
+    registered_name: "SyntaxNetComponent"
+  }
+  component_builder {
+    registered_name: "DynamicComponentBuilder"
+  }
+}
+component {
+  name: "tagger"
+  transition_system {
+    registered_name: "tagger"
+  }
+  linked_feature {
+    name: "lookahead"
+    fml: "input.focus"
+    embedding_dim: 64
+    source_component: "lookahead"
+    source_translator: "identity"
+    source_layer: "layer_0"
+  }
+  network_unit {
+    registered_name: "wrapped_units.LayerNormBasicLSTMNetwork"
+    parameters {
+      key: "hidden_layer_sizes"
+      value: "256"
+    }
+  }
+  backend {
+    registered_name: "SyntaxNetComponent"
+  }
+  component_builder {
+    registered_name: "DynamicComponentBuilder"
+  }
+}
+component {
+  name: "parser"
+  transition_system {
+    registered_name: "arc-standard"
+  }
+  linked_feature {
+    name: "lookahead"
+    fml: "input.focus"
+    embedding_dim: 64
+    source_component: "lookahead"
+    source_translator: "identity"
+    source_layer: "layer_0"
+  }
+  linked_feature {
+    name: "tagger"
+    fml: "input.focus stack.focus stack(1).focus"
+    embedding_dim: 64
+    source_component: "tagger"
+    source_translator: "identity"
+    source_layer: "state_h_0"
+  }
+  linked_feature {
+    name: "rnn-stack"
+    fml: "stack.focus stack(1).focus"
+    embedding_dim: 64
+    source_component: "parser"
+    source_translator: "shift-reduce-step"
+    source_layer: "layer_0"
+  }
+  network_unit {
+    registered_name: "FeedForwardNetwork"
+    parameters {
+      key: "hidden_layer_sizes"
+      value: "256"
+    }
+    parameters {
+      key: "layer_norm_hidden"
+      value: "true"
+    }
+  }
+  backend {
+    registered_name: "SyntaxNetComponent"
+  }
+  component_builder {
+    registered_name: "DynamicComponentBuilder"
+  }
+}

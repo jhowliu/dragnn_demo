@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/jhow/developer/tensorflow/workspace/models/syntaxnet/work/dragnn_examples/models_chinese/checkpoint.model"
+all_model_checkpoint_paths: "/home/jhow/developer/tensorflow/workspace/models/syntaxnet/work/dragnn_examples/models_chinese/checkpoint.model"

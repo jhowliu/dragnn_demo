@@ -1,0 +1,56 @@
+attribute { name: "Aspect" value: "Perf" } attribute { name: "fPOS" value: "AS++AS" } 	
+attribute { name: "Aspect" value: "Perf" } attribute { name: "fPOS" value: "UH++UH" } 	
+attribute { name: "Aspect" value: "Prog" } attribute { name: "fPOS" value: "AS++AS" } 	
+attribute { name: "Case" value: "Gen" } attribute { name: "fPOS" value: "DEC++DEC" } 	
+attribute { name: "Mood" value: "Inter" } attribute { name: "fPOS" value: "UH++UH" } 	
+attribute { name: "NumType" value: "Card" } attribute { name: "fPOS" value: "CD++CD" } 	
+attribute { name: "Number" value: "Plur" } attribute { name: "Person" value: "1" } attribute { name: "fPOS" value: "PRP++PRP" } 	
+attribute { name: "Number" value: "Plur" } attribute { name: "Person" value: "3" } attribute { name: "fPOS" value: "PRP++PRP" } 	
+attribute { name: "Number" value: "Plur" } attribute { name: "fPOS" value: "NN++NN" } 	
+attribute { name: "Number" value: "Plur" } attribute { name: "fPOS" value: "SFN++SFN" } 	
+attribute { name: "Person" value: "1" } attribute { name: "fPOS" value: "PRP++PRP" } 	
+attribute { name: "Person" value: "2" } attribute { name: "fPOS" value: "PRP++PRP" } 	
+attribute { name: "Person" value: "3" } attribute { name: "fPOS" value: "PRP++PRP" } 	
+attribute { name: "Polarity" value: "Neg" } attribute { name: "fPOS" value: "RB++RB" } 	
+attribute { name: "Voice" value: "Cau" } attribute { name: "fPOS" value: "BB++BB" } 	
+attribute { name: "Voice" value: "Cau" } attribute { name: "fPOS" value: "IN++IN" } 	
+attribute { name: "Voice" value: "Cau" } attribute { name: "fPOS" value: "VV++VV" } 	
+attribute { name: "Voice" value: "Pass" } attribute { name: "fPOS" value: "BB++BB" } 	
+attribute { name: "fPOS" value: "(++(" } 	
+attribute { name: "fPOS" value: ")++)" } 	
+attribute { name: "fPOS" value: ",++," } 	
+attribute { name: "fPOS" value: ".++." } 	
+attribute { name: "fPOS" value: "...++..." } 	
+attribute { name: "fPOS" value: "/++/" } 	
+attribute { name: "fPOS" value: ":++:" } 	
+attribute { name: "fPOS" value: "ADD++ADD" } 	
+attribute { name: "fPOS" value: "CC++CC" } 	
+attribute { name: "fPOS" value: "DEC++DEC" } 	
+attribute { name: "fPOS" value: "DEV++DEV" } 	
+attribute { name: "fPOS" value: "DT++DT" } 	
+attribute { name: "fPOS" value: "EC++EC" } 	
+attribute { name: "fPOS" value: "FW++FW" } 	
+attribute { name: "fPOS" value: "HYPH++HYPH" } 	
+attribute { name: "fPOS" value: "IN++IN" } 	
+attribute { name: "fPOS" value: "JJ++JJ" } 	
+attribute { name: "fPOS" value: "LS++LS" } 	
+attribute { name: "fPOS" value: "MD++MD" } 	
+attribute { name: "fPOS" value: "NN++NN" } 	
+attribute { name: "fPOS" value: "NNB++NNB" } 	
+attribute { name: "fPOS" value: "NNP++NNP" } 	
+attribute { name: "fPOS" value: "PFA++PFA" } 	
+attribute { name: "fPOS" value: "PFN++PFN" } 	
+attribute { name: "fPOS" value: "PRD++PRD" } 	
+attribute { name: "fPOS" value: "RB++RB" } 	
+attribute { name: "fPOS" value: "SFA++SFA" } 	
+attribute { name: "fPOS" value: "SFN++SFN" } 	
+attribute { name: "fPOS" value: "SFV++SFV" } 	
+attribute { name: "fPOS" value: "UH++UH" } 	
+attribute { name: "fPOS" value: "VC++VC" } 	
+attribute { name: "fPOS" value: "VERB++VERB" } 	
+attribute { name: "fPOS" value: "VV++VV" } 	
+attribute { name: "fPOS" value: "WP++WP" } 	
+attribute { name: "fPOS" value: "XX++XX" } 	
+attribute { name: "fPOS" value: "\"++\"" } 	
+attribute { name: "fPOS" value: "\'\'++\'\'" } 	
+attribute { name: "fPOS" value: "``++``" } 	
